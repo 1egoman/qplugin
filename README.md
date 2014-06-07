@@ -1,7 +1,7 @@
 This contains all that you (minimally) need to start a plugin. 
 ---
 ##NOTE: This plugin goes with my project at https://github.com/1egoman/qparser
-
+Check out the wiki for [development](https://github.com/1egoman/qplugin/wiki) information!
 
 All a plugin minimally has to have is an info.json:
 ```json
