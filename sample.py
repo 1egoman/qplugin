@@ -1,3 +1,6 @@
+# basic plugin
+# example by Ryan Gaus
+# from 
 from base import *
 
 """
@@ -8,11 +11,11 @@ class sample_parser(parser):
   # tells the main program if it should use this plugin to parse its query
   # the query is contained within self.query
   def validate(self):
-    return self.query == "sample"
+    return "sample" in self.query
 
   # the real code of the plugin, this should parse the incoming
   # query (again, self.query) and return status information
-  def parse(self):
+  def parse(self, parent):
 
     # the response
     self.resp["text"] = "This is a sample response!"
