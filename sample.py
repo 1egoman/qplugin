@@ -1,13 +1,11 @@
 # basic plugin
 # example by Ryan Gaus
-# from 
 from base import *
 
-"""
-A sample parser, that should explain everything nicely
-"""
-class sample_parser(parser):
 
+class sample_parser(parser):
+  """ A sample parser for quail"""
+  
   # tells the main program if it should use this plugin to parse its query
   # the query is contained within self.query
   def validate(self):
