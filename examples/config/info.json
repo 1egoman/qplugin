@@ -1,0 +1,6 @@
+{
+  "name": "Config File Example",
+  "desc": "A Random Description",
+  "author": "Ryan Gaus",
+  "main": "config.py:config_parser"
+}

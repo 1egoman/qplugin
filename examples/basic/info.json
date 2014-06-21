@@ -1,0 +1,6 @@
+{
+  "name": "Basic Plugin",
+  "desc": "A Random Description",
+  "author": "Ryan Gaus",
+  "main": "basic.py:basic_parser"
+}

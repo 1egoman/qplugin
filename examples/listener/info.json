@@ -1,0 +1,7 @@
+{
+  "name": "Listener Example",
+  "desc": "Read the Title.",
+  "author": "Ryan Gaus",
+  "main": "example.py:exampleParser",
+  "listener": "example.py:exampleListener"
+}
